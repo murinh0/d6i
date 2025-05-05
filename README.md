@@ -20,17 +20,18 @@ It can also filter castable spells or forgeable items based on the paths of a co
    ```bash
    cd path\to\my_folder
    pip install .
-
+    ```
 Alternatively, clone the repo and install:
     ```bash
     git clone https://github.com/murinh0/d6i.git
     cd d6i
     pip install .
+    ```
 
 4. Launch it by opening a cmd and writing d6i, or using python:
     ```bash
     python C:/Users/YOURNAME/Desktop/my_folder/d6i/main.py
-
+    ```
 
 ## Features
 
