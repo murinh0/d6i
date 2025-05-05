@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "d6i"
+version = "0.1.0"
+description = "Integration for Dominions 6 process inspection and browser automation"
+requires-python = ">=3.8"
+dependencies = [
+    "keyboard",
+    "pymem",
+    "requests",
+    "gitpython"
+]
+
+[project.urls]
+Homepage = "https://github.com/murinh0/d6i"
+
+[project.scripts]
+d6i = "d6i.main:main"
+
+[tool.setuptools]
+packages = ["d6i"]
