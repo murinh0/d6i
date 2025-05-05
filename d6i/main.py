@@ -11,8 +11,8 @@ import git
 
 # ==== CONFIG ====
 
-script_dir = os.path.dirname(os.path.realpath(__file__))
-config_path = os.path.join(script_dir, "config.json")
+script_dir = os.path.join(os.getcwd(),'d6i')
+config_path = os.path.join(os.getcwd(),'d6i', 'config.json')
 
 def read_config():
     global INCLUDE_RAND_PATHS, RAND_CHANCE_CUTOFF, PORT
