@@ -26,7 +26,7 @@ It can also filter castable spells or forgeable items based on the paths of a co
     ```bash
     git clone https://github.com/murinh0/d6i.git
     cd d6i
-    pip install .
+    pip install -e .
     ```
 
 5. Launch it by opening a cmd and writing d6i, or using python:
