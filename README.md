@@ -21,6 +21,7 @@ It can also filter castable spells or forgeable items based on the paths of a co
    cd path\to\my_folder
    pip install .
     ```
+
 Alternatively, clone the repo and install:
     ```bash
     git clone https://github.com/murinh0/d6i.git
