@@ -2,9 +2,9 @@
 
 ## Description
 
-This is a Python utility that integrates with [larzm42's Dominions Mod Inspector](https://github.com/larzm42/dom6inspector) to quickly open unit and spell descriptions directly from *Dominions 6*.
+This is a Python utility that relies on [larzm42's Dominions Mod Inspector](https://github.com/larzm42/dom6inspector) to provide a better description of units and spells in Dominions 6. You can open a unit's details sheet in-game, press a hotkey, and a browser window opens with the unit's description from a locally-run Mod Inspector. You can press a different hotkey to get a filtered search of spells/items available for that unit's possible paths.
 
-It can also filter castable spells or forgeable items based on the paths of a commander.
+It can also bring up Mod Inspector spell descriptions, by opening a spell in-game and pressing another hotkey.
 
 ## Installation
 
